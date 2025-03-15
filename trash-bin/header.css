@@ -1,0 +1,68 @@
+:root {
+    --text-color: #ffffff;
+    --background: #070c13;
+    --header-red: #e63946;
+    --header-background: #1a2e4a;
+    --button-backround: #273e5f;
+    --button-backround-hover: #121c2c;
+    --color4: #457b9d;
+    --color5: #a8dadc;
+    --color6: #f1faee;
+    --nav-text-color: #c9c9c9;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-background);
+}
+header h1 {
+    display: inline-block;
+    margin-left: 10%;
+    color: var(--text-color);
+}
+
+header h1 span {
+    color: var(--text-color);
+    background-color: var(--header-red);
+    border-radius: 10%;
+    padding: 1%;
+}
+
+.btn-login {
+    background-color: var(--button-backround);
+    border: none;
+    padding: 10px 20px;
+    color: var(--text-color);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+header button:hover {
+    background-color: var(--button-backround-hover);
+}
+
+nav {
+    background-color: var(--header-background);
+    text-align: center;
+    padding: 2% 0 1%;
+}
+
+nav a {
+    color: var(--nav-text-color);
+    text-decoration: none;
+    margin: 10px 5%;
+
+}
+
+nav a:hover {
+    color: var(--text-color);
+}

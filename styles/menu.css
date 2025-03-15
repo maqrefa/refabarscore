@@ -1,0 +1,43 @@
+:root {
+    --text-color: #ffffff;
+    --background: #070c13;
+    --header-red: #e63946;
+    --header-background: #1a2e4a;
+    --button-backround: #273e5f;
+    --button-backround-hover: #121c2c;
+    --color4: #457b9d;
+    --color5: #a8dadc;
+    --color6: #f1faee;
+    --nav-text-color: #c9c9c9;
+    --aside-hover: #262c34;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+aside {
+    background-color: var(--background);
+    padding: 5px;
+    height: 100%;
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background-color: var(--background);
+    border-radius: 5px;
+}
+
+aside ul li a:hover {
+    background-color: var(--aside-hover);
+    color: var(--text-color);
+}
