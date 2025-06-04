@@ -50,3 +50,22 @@ header h1 span {
 header button:hover {
     background-color: var(--button-backround-hover);
 }
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    gap: 0.5rem;
+}
+
+.logo-header {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.tagline {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
