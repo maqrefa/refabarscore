@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Bet</title>
+  <link rel="stylesheet" href="styles/bet.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main>
+    <section class="section">
+      <div class="match-header">
+        <h2>Data Pemasangan Bet Sebelumnya</h2>
+        <p>Berikut adalah data yang telah Anda input sebelumnya.</p>
+      </div>
+
+      <div class="form-container">
+        <div id="dataContainer" class="data-display">
+          <!-- Data akan dimuat di sini oleh JavaScript -->
+        </div>
+        <div style="margin-top: 20px;">
+          <button onclick="window.location.href='main.html'">Kembali ke Menu Utama</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const data = JSON.parse(localStorage.getItem("betData"));
+      const container = document.getElementById("dataContainer");
+
+      if (data) {
+        container.innerHTML = `
+          <p><strong>Nama:</strong> ${data.nama}</p>
+          <p><strong>Umur:</strong> ${data.umur}</p>
+          <p><strong>Tim Pilihan:</strong> ${data.tim}</p>
+        `;
+      } else {
+        container.innerHTML = "<p>Tidak ada data yang ditemukan. Silakan isi formulir terlebih dahulu.</p>";
+      }
+    });
+  </script>
+</body>
+</html>
