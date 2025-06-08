@@ -1,7 +1,7 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
+$host = "192.168.1.2";
+$user = "refabar";
+$pass = "refabar123";
 $db = "refabarscore";
 
 $koneksi = new mysqli($host, $user, $pass, $db);
