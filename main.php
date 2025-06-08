@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timnas Indonesia - Jadwal & Klasemen</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- <header>
+    <h1>Timnas Indonesia</h1>
+    <p>Kualifikasi Piala Dunia Zona Asia 2025</p>
+  </header> -->
+
+  <main>
+    <section class="section jadwal">
+      <h2>Jadwal Pertandingan Timnas Indonesia</h2>
+      <div class="match-list">
+        <div class="match upcoming">
+          <p>Jepang vs <strong>Indonesia</strong></p>
+          <p>Tanggal: 10 Juni 2025 - 17:35 WIB</p>
+          <button onclick="window.location.href='pages/bet.php'">Pasang Bet</button>
+        </div>
+        <div class="match">
+          <p><strong>Indonesia</strong> 1 - 0 China</p>
+          <p>Tanggal: 5 Juni 2025</p>
+        </div>
+        <div class="match">
+          <p><strong>Indonesia</strong> 1 - 0 Bahrain</p>
+          <p>Tanggal: 25 Maret 2025</p>
+        </div>
+        <div class="match">
+          <p>Australia 5 - 1 <strong>Indonesia</strong></p>
+          <p>Tanggal: 20 Maret 2025</p>
+        </div>
+        <div class="match">
+          <p><strong>Indonesia</strong> 2 - 0 Saudi Arabia</p>
+          <p>Tanggal: 19 November 2024</p>
+        </div>
+        <div class="match">
+          <p><strong>Indonesia</strong> 0 - 4 Jepang</p>
+          <p>Tanggal: 15 November 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section klasemen">
+    <h2>Klasemen Grup C</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Pos</th>
+            <th>Negara</th>
+            <th>T</th>
+            <th>M</th>
+            <th>S</th>
+            <th>K</th>
+            <th>GM</th>
+            <th>GK</th>
+            <th>SG</th>
+            <th>Poin</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td><td>Jepang</td><td>9</td><td>6</td><td>2</td><td>1</td><td>24</td><td>3</td><td>21</td><td>20</td>
+        </tr>
+        <tr>
+            <td>2</td><td>Australia</td><td>9</td><td>4</td><td>4</td><td>1</td><td>14</td><td>6</td><td>8</td><td>16</td>
+        </tr>
+        <tr>
+            <td>3</td><td>Arab Saudi</td><td>9</td><td>3</td><td>4</td><td>2</td><td>6</td><td>6</td><td>0</td><td>13</td>
+        </tr>
+        <tr class="highlight">
+            <td>4</td><td>Indonesia</td><td>9</td><td>3</td><td>3</td><td>3</td><td>9</td><td>14</td><td>-5</td><td>12</td>
+        </tr>
+        <tr>
+            <td>5</td><td>Bahrain</td><td>9</td><td>1</td><td>3</td><td>5</td><td>15</td><td>25</td><td>-10</td><td>6</td>
+        </tr>
+        <tr>
+            <td>6</td><td>Cina</td><td>9</td><td>2</td><td>0</td><td>7</td><td>6</td><td>20</td><td>-14</td><td>6</td>
+        </tr>
+        </tbody>
+    </table>
+    </section>
+
+  </main>
+</body>
+</html>
