@@ -1,5 +1,5 @@
 <?php
-$host = "192.168.26.56";
+$host = "192.168.40.56";
 $user = "root";
 $pass = "123456";
 $db = "refabarscore";
